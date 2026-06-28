@@ -1,13 +1,11 @@
 class Student:
-    def __init__(self, name, age=21):
+    def __init__(self, name):
         self.name = name
-        self.age = age
 
-    def greet(self):
-        print(f"Hello, my name is {self.name}")
-        print(f"And I am {self.age} years old.")
+student1 = Student("Alice")
 
-Student1 = Student("John", 24)
-Student2 = Student("Alice")
-Student1.greet()
-Student2.greet()
+print(student1.name)
+
+student1.name = "Pradeep"
+
+print(student1.name)
