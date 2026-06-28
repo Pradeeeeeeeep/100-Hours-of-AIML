@@ -1,9 +1,11 @@
-class Animal:
-    def speak(self):
-        print("Animal speaks")
+class Dog:
+    def sound(self):
+        print("Bark")
 
-class Dog(Animal):
-    pass
+class Cat:
+    def sound(self):
+        print("Meow")
 
-dog = Dog()
-dog.speak()
+animals = [Dog(), Cat()]
+for animal in animals:
+    animal.sound()
