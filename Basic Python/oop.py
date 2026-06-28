@@ -1,7 +1,5 @@
 class car:
-    pass
+    def __init__(self):
+        print("car is created")
 car1 = car()
 car2 = car()
-
-print(car1)
-print(car2)
