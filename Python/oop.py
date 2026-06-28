@@ -1,11 +1,9 @@
-class Student:
-    def __init__(self, name):
-        self.name = name
+class Animal:
+    def speak(self):
+        print("Animal speaks")
 
-student1 = Student("Alice")
+class Dog(Animal):
+    pass
 
-print(student1.name)
-
-student1.name = "Pradeep"
-
-print(student1.name)
+dog = Dog()
+dog.speak()
