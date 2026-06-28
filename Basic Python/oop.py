@@ -1,11 +1,9 @@
 class Student:
-    def __init__(Self, name, age, grade):
+    def __init__(Self, name):
         Self.name = name
-        Self.age = age
-        Self.grade = grade
 
+    def greet(Self):
+        print(f"Hello, my name is {Self.name}")
 
-Student1 = Student("John", 20, "A")
-print(Student1.name)
-print(Student1.age)
-print(Student1.grade)
+Student1 = Student("John")
+Student1.greet()
